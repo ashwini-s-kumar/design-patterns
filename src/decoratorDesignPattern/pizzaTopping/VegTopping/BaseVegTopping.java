@@ -1,7 +1,7 @@
-package decoratorDP.pizzaTopping.VegTopping;
+package decoratorDesignPattern.pizzaTopping.VegTopping;
 
-import decoratorDP.pizza.BasePizza;
-import decoratorDP.pizzaTopping.BasePizzaDecorator;
+import decoratorDesignPattern.pizza.BasePizza;
+import decoratorDesignPattern.pizzaTopping.BasePizzaDecorator;
 
 public abstract class BaseVegTopping extends BasePizzaDecorator {
     BasePizza basePizza ;

@@ -1,6 +1,6 @@
-package decoratorDP.pizzaTopping;
+package decoratorDesignPattern.pizzaTopping;
 
-import decoratorDP.pizza.BasePizza;
+import decoratorDesignPattern.pizza.BasePizza;
 
 public abstract class BasePizzaDecorator extends BasePizza {
     @Override

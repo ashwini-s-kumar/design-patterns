@@ -1,4 +1,4 @@
-package decoratorDP.pizza;
+package decoratorDesignPattern.pizza;
 
 public abstract class BasePizza {
     String description = "";

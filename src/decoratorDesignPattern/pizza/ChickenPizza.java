@@ -1,4 +1,4 @@
-package decoratorDP.pizza;
+package decoratorDesignPattern.pizza;
 
 public class ChickenPizza extends BasePizza{
 

@@ -1,6 +1,6 @@
-package decoratorDP.pizzaTopping.VegTopping;
+package decoratorDesignPattern.pizzaTopping.VegTopping;
 
-import decoratorDP.pizza.BasePizza;
+import decoratorDesignPattern.pizza.BasePizza;
 
 public class Mushroom extends BaseVegTopping {
     public Mushroom(BasePizza basePizza)

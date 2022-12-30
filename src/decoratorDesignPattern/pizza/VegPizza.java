@@ -1,4 +1,4 @@
-package decoratorDP.pizza;
+package decoratorDesignPattern.pizza;
 
 public class VegPizza extends BasePizza{
     public VegPizza()

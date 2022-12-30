@@ -1,6 +1,6 @@
-package decoratorDP.pizzaTopping.ChickenTopping;
+package decoratorDesignPattern.pizzaTopping.ChickenTopping;
 
-import decoratorDP.pizza.BasePizza;
+import decoratorDesignPattern.pizza.BasePizza;
 
 public class Pepperoni extends BaseChickenTopping {
 
