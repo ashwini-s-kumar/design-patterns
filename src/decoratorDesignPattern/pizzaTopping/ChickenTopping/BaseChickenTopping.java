@@ -1,8 +1,9 @@
 package decoratorDesignPattern.pizzaTopping.ChickenTopping;
 
 import decoratorDesignPattern.pizza.BasePizza;
+import decoratorDesignPattern.pizzaTopping.BasePizzaDecorator;
 
-public class BaseChickenTopping extends BasePizza {
+public class BaseChickenTopping extends BasePizzaDecorator {
 
     BasePizza basePizza;
 
