@@ -1,5 +1,7 @@
 package NullObjectDesignPattern.logger;
 
+import NullObjectDesignPattern.logger.loggers.Logger;
+
 public class Demo {
     public static void main(String [] arr){
         Logger logger;

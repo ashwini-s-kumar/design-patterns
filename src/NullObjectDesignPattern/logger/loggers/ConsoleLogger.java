@@ -1,4 +1,4 @@
-package NullObjectDesignPattern.logger;
+package NullObjectDesignPattern.logger.loggers;
 
 public class ConsoleLogger implements Logger{
 
