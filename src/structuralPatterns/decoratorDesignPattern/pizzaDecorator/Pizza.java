@@ -1,11 +1,11 @@
-package structuralPatterns.decoratorDesignPattern;
+package structuralPatterns.decoratorDesignPattern.pizzaDecorator;
 
-import structuralPatterns.decoratorDesignPattern.pizza.BasePizza;
-import structuralPatterns.decoratorDesignPattern.pizza.ChickenPizza;
-import structuralPatterns.decoratorDesignPattern.pizza.VegPizza;
-import structuralPatterns.decoratorDesignPattern.pizzaTopping.ChickenTopping.Pepperoni;
-import structuralPatterns.decoratorDesignPattern.pizzaTopping.VegTopping.Mushroom;
-import structuralPatterns.decoratorDesignPattern.pizzaTopping.VegTopping.SeasonalVeg;
+import structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizza.BasePizza;
+import structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizza.ChickenPizza;
+import structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizza.VegPizza;
+import structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizzaTopping.ChickenTopping.Pepperoni;
+import structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizzaTopping.VegTopping.Mushroom;
+import structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizzaTopping.VegTopping.SeasonalVeg;
 
 public class Pizza {
     public static void main(String [] arr)

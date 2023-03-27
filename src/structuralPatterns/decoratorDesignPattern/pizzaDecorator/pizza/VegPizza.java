@@ -1,4 +1,4 @@
-package structuralPatterns.decoratorDesignPattern.pizza;
+package structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizza;
 
 public class VegPizza extends BasePizza{
     public VegPizza()

@@ -1,6 +1,6 @@
-package structuralPatterns.decoratorDesignPattern.pizzaTopping.VegTopping;
+package structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizzaTopping.VegTopping;
 
-import structuralPatterns.decoratorDesignPattern.pizza.BasePizza;
+import structuralPatterns.decoratorDesignPattern.pizzaDecorator.pizza.BasePizza;
 
 public class SeasonalVeg extends BaseVegTopping{
     public SeasonalVeg(BasePizza basePizza) {

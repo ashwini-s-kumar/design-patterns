@@ -14,7 +14,7 @@ trying to create objects in a manner suitable to the situation. The five creatio
 Structural Patterns: These patterns deal with object composition,
 such as classes or objects being composed into larger structures. The seven structural patterns are:
 
-1. Adapter: Allows classes with incompatible interfaces to work together by wrapping an interface around one of the objects.
+1. Adapter: Allows classes with incompatible interfaces work together by creating an adapter that acts as a mediator between them.
 
 2. Bridge: Separates an object’s interface from its implementation, so they can vary independently.
 
