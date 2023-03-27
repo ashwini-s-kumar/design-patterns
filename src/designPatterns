@@ -1,40 +1,58 @@
+=======================================================================================================
 Creational Patterns: These patterns deal with object creation mechanisms,
-trying to create objects in a manner suitable to the situation. The five creational patterns are:
-
+trying to create objects in a manner suitable to the situation.
+The five creational patterns are:
+=======================================================================================================
 1. Abstract Factory: Provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+    Examples:
+        a.sandwich
 
 2. Builder: Separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
 
 3. Factory Method: Defines an interface for creating objects, but lets subclasses decide which classes to instantiate.
+    Examples:
+        a.sandwich
 
 4. Prototype: Creates new objects by cloning existing ones.
 
 5. Singleton: Ensures a class has only one instance, and provides a global point of access to it.
 
+=======================================================================================================
 Structural Patterns: These patterns deal with object composition,
-such as classes or objects being composed into larger structures. The seven structural patterns are:
-
+such as classes or objects being composed into larger structures.
+The seven structural patterns are:
+=======================================================================================================
 1. Adapter: Allows classes with incompatible interfaces work together by creating an adapter that acts as a mediator between them.
+    Examples:
+        a.paymentSystem
 
 2. Bridge: Decouple an abstraction from its implementation, so they can vary independently.
-In this pattern, the abstraction and implementation are both defined as separate class hierarchies and are connected using a bridge interface.
+    In this pattern, the abstraction and implementation are both defined as separate class hierarchies and are connected using a bridge interface.
 
 3. Composite: Allows objects to be composed into tree structures to represent part-whole hierarchies.
 
 4. Decorator: Dynamically adds behavior to an object without changing its interface.
+    Examples:
+        a.pizzaDecorator
 
 5. Facade: Provides a unified interface to a set of interfaces in a subsystem, simplifying their usage.
 
 6. Flyweight: Shares objects to support large numbers of fine-grained objects efficiently.
 
 7. Proxy: Provides a placeholder for another object to control its access.
-
+    Examples:
+        a.employeeService
+=======================================================================================================
 Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
 The eleven behavioral patterns are:
-
+=======================================================================================================
 1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.
+    Examples:
+        a.kingdom
 
 2. Command: Encapsulates a request as an object, allowing it to be treated as a parameter, stored, and executed later.
+    Examples:
+        a.Calculator
 
 3. Interpreter: Defines a language’s grammar, and creates a representation of the grammar for the language.
 
@@ -45,10 +63,16 @@ The eleven behavioral patterns are:
 6. Memento: Allows the state of an object to be saved and restored later without violating encapsulation.
 
 7. Observer: Notifies objects of changes in another object’s state.
+    Examples:
+        a.weatherStation
 
 8. State: Allows an object to change its behavior when its internal state changes.
+    Examples:
+        a.coffeeVendingMachine
 
 9. Strategy: Defines a family of algorithms, encapsulating each one, and making them interchangeable.
+    Examples:
+        a.sortingStrategy
 
 10. Template Method: Defines the skeleton of an algorithm in a method, allowing its subclasses to redefine certain steps of the algorithm without changing its structure.
 
