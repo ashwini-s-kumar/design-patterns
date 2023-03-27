@@ -16,7 +16,8 @@ such as classes or objects being composed into larger structures. The seven stru
 
 1. Adapter: Allows classes with incompatible interfaces work together by creating an adapter that acts as a mediator between them.
 
-2. Bridge: Separates an object’s interface from its implementation, so they can vary independently.
+2. Bridge: Decouple an abstraction from its implementation, so they can vary independently.
+In this pattern, the abstraction and implementation are both defined as separate class hierarchies and are connected using a bridge interface.
 
 3. Composite: Allows objects to be composed into tree structures to represent part-whole hierarchies.
 

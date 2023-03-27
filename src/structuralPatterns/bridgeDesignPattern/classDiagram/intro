@@ -1,0 +1,23 @@
+bridge pattern uses the following terms:
+
+1. Abstraction (Abstract Class or interface)
+
+It is the core of the bridge design patterns and defines the interface for the abstraction (such as the GUI i.e., the Graphical User Interface Layer of an App`).
+This layer isn’t supposed to do any real work on its own i.e., it is the platform-independent layer.
+It contains a reference to the implementor.
+Abstraction defines the interface which is used by the client i.e., it is a platform-independent (or abstract) model which is used to provide the functionality to the client via the platform-specific implementations.
+
+2. Implementor (Interface)
+
+The implementor provides the actual function which is described in the abstraction. For example, if we are creating a Banking system application, the abstraction may define a function to withdraw some amount of money from a bank account. Here, the implementor will provide a list of operations (such as checking if the account has enough balance or not) that may be useful to carry out the cash withdrawal from the bank account.
+It also defines the interface for implementation classes.
+
+3. Concrete Abstractions (Normal Class)
+
+It extends the abstract interface defined by Abstraction.
+The concrete abstractions provide any specialized operation that may be required by the client. For example, the Abstraction may represent and define a basic user interface and its concrete abstraction may define a hand-held device's specialized user interface.
+
+4. Concrete Implementations (Normal Class)
+
+It implements the Implementor.
+It provides the actual source code to implement the operations and functionality defined by the implementor interface.
