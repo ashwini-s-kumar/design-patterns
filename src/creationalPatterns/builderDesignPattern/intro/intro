@@ -1,0 +1,22 @@
+The Builder design pattern is a creational design pattern that separates the construction of a
+complex object from its representation so that the same construction process can create different representations.
+The main idea behind the Builder pattern is to provide a flexible way to create objects without requiring knowledge
+ of the underlying implementation.
+
+Builder is a creational design pattern that lets you construct complex objects step by step.
+The pattern allows you to produce different types and representations of an object using the same construction code.
+
+In the Builder pattern, a separate object, called the builder, is responsible for constructing the object.
+The builder typically provides a set of methods for configuring the object being built,
+which allows the client to specify the desired properties of the object. Once the client
+has finished configuring the builder, the builder creates the object and returns it to the client.
+
+One of the key benefits of the Builder pattern is that it provides a way to create complex objects with a simple,
+ step-by-step process. This makes it easier to understand and modify the construction process,
+ as well as enabling the creation of multiple variations of the same object.
+
+Overall, the Builder pattern can be a useful tool for creating complex objects in a flexible and easy-to-understand way,
+particularly when the underlying implementation is complex or subject to change.
+
+
+
