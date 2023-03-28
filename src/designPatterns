@@ -8,6 +8,8 @@ The five creational patterns are:
         a.sandwich
 
 2. Builder: Separates the construction of a complex object from its representation, allowing the same construction process to create various representations.
+    Examples:
+        a.buildHouse
 
 3. Factory Method: Defines an interface for creating objects, but lets subclasses decide which classes to instantiate.
     Examples:
@@ -36,7 +38,8 @@ The seven structural patterns are:
         a.pizzaDecorator
 
 5. Facade: Provides a unified interface to a set of interfaces in a subsystem, simplifying their usage.
-
+    Examples:
+        a.hotelBooking
 6. Flyweight: Shares objects to support large numbers of fine-grained objects efficiently.
 
 7. Proxy: Provides a placeholder for another object to control its access.
