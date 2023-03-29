@@ -47,7 +47,7 @@ The seven structural patterns are:
     Examples:
         a.employeeService
 =============================================================================================================================================================================
-(6/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
+(7/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
 The eleven behavioral patterns are:
 =============================================================================================================================================================================
 1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.
@@ -81,3 +81,5 @@ The eleven behavioral patterns are:
 10. Template Method: Defines the skeleton of an algorithm in a method, allowing its subclasses to redefine certain steps of the algorithm without changing its structure.
 
 11. Visitor: Separates an algorithm from an object’s structure by moving the algorithm into a separate object.
+    Examples:
+        a.guestService
