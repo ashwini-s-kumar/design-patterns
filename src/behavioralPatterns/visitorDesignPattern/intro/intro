@@ -1,0 +1,32 @@
+The Visitor design pattern is a behavioral design pattern that allows you to add
+new operations or behaviors to an existing class hierarchy without modifying the
+classes themselves. It separates the algorithm or logic from the object structure
+on which it operates.
+
+In this pattern, a visitor object is created that visits or traverses each object
+in the object structure and performs the desired operation on it. The object
+structure can be any complex data structure, such as a tree or a graph, and
+the operations can be anything that can be performed on the objects, such as
+ calculating a value, validating a property, or updating a state.
+
+The Visitor pattern is composed of the following main elements:
+
+Visitor: The interface or abstract class that declares the methods for each operation
+    or behavior that can be performed on the objects in the object structure.
+
+ConcreteVisitor: The concrete implementation of the Visitor interface that defines the
+    actual behavior of each operation or behavior.
+
+Element: The interface or abstract class that defines the methods that allow the Visitor
+    to access and operate on the objects in the object structure.
+
+ConcreteElement: The concrete implementation of the Element interface that defines the
+    actual objects in the object structure.
+
+ObjectStructure: The collection of objects that are to be operated on by the Visitor.
+
+The Visitor pattern provides a flexible way to add new behaviors to an object hierarchy
+        without modifying the existing code. It is particularly useful when dealing with
+        complex object structures where the behavior of each object depends on its type
+        and state. However, it can also lead to a complex and hard-to-maintain code if not
+        used carefully.

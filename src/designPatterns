@@ -1,5 +1,5 @@
 =============================================================================================================================================================================
-Creational Patterns: These patterns deal with object creation mechanisms,
+(2/5)Creational Patterns: These patterns deal with object creation mechanisms,
 trying to create objects in a manner suitable to the situation.
 The five creational patterns are:
 =============================================================================================================================================================================
@@ -20,7 +20,7 @@ The five creational patterns are:
 5. Singleton: Ensures a class has only one instance, and provides a global point of access to it.
 
 =============================================================================================================================================================================
-Structural Patterns: These patterns deal with object composition,
+(3/7)Structural Patterns: These patterns deal with object composition,
 such as classes or objects being composed into larger structures.
 The seven structural patterns are:
 =============================================================================================================================================================================
@@ -40,13 +40,14 @@ The seven structural patterns are:
 5. Facade: Provides a unified interface to a set of interfaces in a subsystem, simplifying their usage.
     Examples:
         a.hotelBooking
+
 6. Flyweight: Shares objects to support large numbers of fine-grained objects efficiently.
 
 7. Proxy: Provides a placeholder for another object to control its access.
     Examples:
         a.employeeService
 =============================================================================================================================================================================
-Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
+(6/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
 The eleven behavioral patterns are:
 =============================================================================================================================================================================
 1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.
