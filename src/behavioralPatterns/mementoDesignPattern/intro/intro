@@ -1,0 +1,31 @@
+The Momento design pattern is a behavioral pattern in object-oriented programming that allows
+ an object's state to be saved and restored later without violating encapsulation.
+ This pattern is used to capture and externalize an object's internal state, so that
+ the object can be restored to its previous state if necessary.
+
+The Memento pattern consists of three main components:
+
+Originator: This is the object whose state needs to be saved and restored.
+    It creates a Memento object containing a snapshot of its current state, and also
+    uses the Memento object to restore its state later.
+
+Memento: This is an object that holds the state of the Originator at a particular point in time.
+    It has no other functionality than to store the state of the Originator.
+
+Caretaker: This is the object that is responsible for keeping track of Memento objects.
+    It requests a Memento from the Originator, stores it in a collection, and later returns
+    it to the Originator to restore its state.
+
+The flow of the pattern works as follows:
+
+    - The Originator creates a Memento object and passes it to the Caretaker.
+
+    - The Caretaker stores the Memento object.
+
+    - The Originator can later request the stored Memento from the Caretaker and
+        use it to restore its state to the previous point in time.
+
+The Momento pattern is particularly useful in situations where an object's
+    state needs to be saved and restored in a way that is independent of the object itself.
+This pattern can be used in various applications, such as undo/redo functionality,
+    game state management, and transaction management in databases.
