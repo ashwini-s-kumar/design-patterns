@@ -1,0 +1,11 @@
+The Prototype design pattern is a creational design pattern that allows you to create new objects
+    by cloning existing objects. Instead of creating new objects from scratch, you create a prototype
+    object and then clone it to create new instances.
+
+The Prototype pattern is useful when creating new objects is expensive or complex, or when you want to
+    isolate the creation of new objects from the rest of the system. By cloning existing objects, you can
+    create new objects quickly and easily, while also ensuring that the new objects are configured correctly.
+
+To implement the Prototype pattern, you need a class that defines the interface for cloning itself.
+    This can be done by implementing the Cloneable interface and providing an implementation for the clone() method.
+    The clone() method should return a new instance of the class with the same state as the original instance.
