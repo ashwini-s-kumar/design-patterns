@@ -1,0 +1,16 @@
+The Singleton design pattern is a creational design pattern that restricts the instantiation
+    of a class to only one instance and provides a global point of access to that instance.
+
+The Singleton pattern is useful when there is a need for only one instance of a class to exist
+    in the entire system. This can be for reasons such as:
+
+    Managing limited resources: If the class manages a limited resource such as a database connection or
+        a file handle, then having multiple instances of the class could result in resource contention and
+        waste of resources.
+    Ensuring consistent behavior: If there are multiple instances of the class, they may not all behave
+        consistently, leading to unexpected behavior in the system.
+
+To implement the Singleton pattern, the class constructor is made private, so that it cannot be
+    instantiated from outside the class. The class provides a static method that returns the single
+    instance of the class. This method creates the instance if it does not already exist, and returns
+    the existing instance otherwise.

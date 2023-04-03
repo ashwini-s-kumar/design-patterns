@@ -47,7 +47,7 @@ The seven structural patterns are:
     Examples:
         a.employeeService
 =============================================================================================================================================================================
-(7/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
+(4/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
 The eleven behavioral patterns are:
 =============================================================================================================================================================================
 1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.
@@ -65,7 +65,8 @@ The eleven behavioral patterns are:
 5. Mediator: Defines simplified communication between objects in a system.
 
 6. Memento: Allows the state of an object to be saved and restored later without violating encapsulation.
-
+    Examples:
+        a.article
 7. Observer: Notifies objects of changes in another object’s state.
     Examples:
         a.weatherStation
