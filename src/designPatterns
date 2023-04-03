@@ -1,5 +1,5 @@
 =============================================================================================================================================================================
-(2/5)Creational Patterns: These patterns deal with object creation mechanisms,
+(5/5)Creational Patterns: These patterns deal with object creation mechanisms,
 trying to create objects in a manner suitable to the situation.
 The five creational patterns are:
 =============================================================================================================================================================================
@@ -16,11 +16,15 @@ The five creational patterns are:
         a.sandwich
 
 4. Prototype: Creates new objects by cloning existing ones.
+    Examples:
+        prototype
 
 5. Singleton: Ensures a class has only one instance, and provides a global point of access to it.
+    Examples:
+        printer
 
 =============================================================================================================================================================================
-(3/7)Structural Patterns: These patterns deal with object composition,
+(4/7)Structural Patterns: These patterns deal with object composition,
 such as classes or objects being composed into larger structures.
 The seven structural patterns are:
 =============================================================================================================================================================================
@@ -47,7 +51,7 @@ The seven structural patterns are:
     Examples:
         a.employeeService
 =============================================================================================================================================================================
-(4/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
+(7/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
 The eleven behavioral patterns are:
 =============================================================================================================================================================================
 1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.

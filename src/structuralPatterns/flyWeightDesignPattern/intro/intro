@@ -1,0 +1,20 @@
+The Flyweight design pattern is a structural pattern that is used to minimize the memory usage and
+    improve performance of applications by sharing objects that have similar characteristics.
+    The idea is to create a pool of reusable objects, or flyweights, that can be used by multiple
+    clients instead of creating new objects every time they are needed. This reduces the number of
+    objects that need to be created and stored in memory, which can improve the performance of the application.
+
+The Flyweight pattern consists of the following components:
+
+Flyweight: This is the interface or abstract class that defines the methods that the concrete flyweights
+    must implement. The flyweight objects contain the intrinsic state, which is the part of the object
+    that can be shared with other objects. The extrinsic state, which is the context in which the flyweight
+    is used, is passed to the flyweight objects as a parameter.
+
+Concrete Flyweight: This is the concrete implementation of the flyweight interface or abstract class.
+    It contains the intrinsic state that is shared by multiple objects and implements the methods
+    defined in the flyweight interface or abstract class.
+
+Flyweight Factory: This is the factory that creates and manages the flyweight objects. It maintains
+    a pool of flyweights and ensures that the same flyweight object is reused when possible. When a
+    client requests a flyweight, the factory returns an existing flyweight or creates a new one if necessary.
