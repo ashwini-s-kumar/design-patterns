@@ -1,0 +1,20 @@
+The Interpreter Design Pattern is a behavioral pattern that defines a language and a way to
+    interpret and execute its grammar. It's used to define a grammar for a language and provide a
+    way to interpret and execute it.
+
+The Interpreter pattern has the following components:
+
+    Abstract Expression: Defines the interface for all expressions in the language.
+
+    Terminal Expression: perform the interpretation directly. Implements the Abstract Expression interface and represents
+        a terminal expression in the language.
+
+    Nonterminal Expression: forward the request to their child expressions. Implements the Abstract Expression interface and represents
+        a nonterminal expression in the language.
+
+    Context: Contains the information that the interpreter needs to interpret the
+        expressions in the language. It is this String expression with the Postfix
+        notation that has to be interpreted.
+
+    Client: Builds or specifies an expression in the language and invokes the interpreter
+        to interpret and execute it.
