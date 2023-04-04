@@ -1,0 +1,25 @@
+The Iterator design pattern is a behavioral pattern that provides a way to access the elements of
+    a collection sequentially without exposing the underlying representation of the collection.
+    It separates the logic for accessing the elements from the collection itself, making it possible
+    to iterate over the collection in different ways without changing the collection's implementation.
+
+The Iterator pattern consists of two main components: the Iterator and the Aggregate.
+
+    Iterator: The Iterator defines an interface for accessing and iterating over the elements of a collection.
+        It provides methods to access the next element and check whether there are more elements in the collection.
+
+    Aggregate (Collection): The Aggregate defines an interface for creating an Iterator object that can be used to access
+        and iterate over the elements of the collection.
+
+The Iterator pattern follows the Single Responsibility Principle (SRP) and the Open-Closed Principle (OCP)
+    of SOLID design principles. It makes it easier to add new iterators to a collection without modifying
+    the collection itself, and it makes it possible to use the same iterator interface to iterate over
+    different types of collections.
+
+Some benefits of using the Iterator pattern include:
+
+    It simplifies the code for iterating over a collection, making it more readable and maintainable.
+    It allows for different types of iterators to be used with the same collection, making it more flexible.
+    It hides the internal structure of the collection, making it more secure and less prone to errors.
+
+
