@@ -24,7 +24,7 @@ The five creational patterns are:
         a.printer
 
 =============================================================================================================================================================================
-(5/7)Structural Patterns: These patterns deal with object composition,
+(6/7)Structural Patterns: These patterns deal with object composition,
 such as classes or objects being composed into larger structures.
 The seven structural patterns are:
 =============================================================================================================================================================================
