@@ -1,8 +1,8 @@
-package behavioralPatterns.iteratorDesignPattern.CollectionIterator;
+package behavioralPatterns.iteratorDesignPattern.collectionIterator;
 
-import behavioralPatterns.iteratorDesignPattern.CollectionIterator.Iterator.Iterator;
-import behavioralPatterns.iteratorDesignPattern.CollectionIterator.aggregator.Aggregator;
-import behavioralPatterns.iteratorDesignPattern.CollectionIterator.aggregator.IntArrayAggregator;
+import behavioralPatterns.iteratorDesignPattern.collectionIterator.Iterator.Iterator;
+import behavioralPatterns.iteratorDesignPattern.collectionIterator.aggregator.Aggregator;
+import behavioralPatterns.iteratorDesignPattern.collectionIterator.aggregator.IntArrayAggregator;
 
 public class Demo {
     public static void main(String [] arr){

@@ -1,4 +1,4 @@
-package behavioralPatterns.iteratorDesignPattern.CollectionIterator.Iterator;
+package behavioralPatterns.iteratorDesignPattern.collectionIterator.Iterator;
 
 public class IntArrayIterator implements Iterator{
     int [] arr;
