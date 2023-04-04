@@ -1,0 +1,11 @@
+Template Design Pattern is a behavioral design pattern that allows you to define the skeleton of an
+    algorithm in a base class, with specific steps of the algorithm deferred to subclasses.
+
+The Template Design Pattern consists of two main components:
+
+    Abstract class (the Template): This is an abstract class that defines the basic structure and functionality
+        of the algorithm. It contains one or more abstract methods that the subclasses must implement to
+        customize the behavior of the algorithm.
+
+    Concrete classes (the Subclasses): These are concrete classes that inherit from the abstract class and implement
+        the abstract methods. They provide the specific implementation of the steps required by the algorithm.

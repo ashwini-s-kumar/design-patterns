@@ -90,7 +90,8 @@ The eleven behavioral patterns are:
     Examples:
         a.sortingStrategy
 
-10. Template Method: Defines the skeleton of an algorithm in a method, allowing its subclasses to redefine certain steps of the algorithm without changing its structure.
+10. Template Method: Defines the skeleton of an algorithm in a method, allowing its subclasses to redefine
+    certain steps of the algorithm without changing its structure.
 
 11. Visitor: Separates an algorithm from an object’s structure by moving the algorithm into a separate object.
     Examples:
