@@ -17,11 +17,11 @@ The five creational patterns are:
 
 4. Prototype: Creates new objects by cloning existing ones.
     Examples:
-        prototype
+        a.prototype
 
 5. Singleton: Ensures a class has only one instance, and provides a global point of access to it.
     Examples:
-        printer
+        a.printer
 
 =============================================================================================================================================================================
 (5/7)Structural Patterns: These patterns deal with object composition,
@@ -36,6 +36,8 @@ The seven structural patterns are:
     In this pattern, the abstraction and implementation are both defined as separate class hierarchies and are connected using a bridge interface.
 
 3. Composite: Allows objects to be composed into tree structures to represent part-whole hierarchies.
+    Examples:
+        a.firmHierarchy
 
 4. Decorator: Dynamically adds behavior to an object without changing its interface.
     Examples:
@@ -53,7 +55,7 @@ The seven structural patterns are:
     Examples:
         a.employeeService
 =============================================================================================================================================================================
-(10/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
+(11/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
 The eleven behavioral patterns are:
 =============================================================================================================================================================================
 1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.
@@ -65,14 +67,16 @@ The eleven behavioral patterns are:
         a.Calculator
 
 3. Interpreter: Defines a language’s grammar, and creates a representation of the grammar for the language.
+    Examples:
+        a.expressions
 
 4. Iterator: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
     Examples:
-        collectionIterator
+        a.collectionIterator
 
 5. Mediator: Defines simplified communication between objects in a system.
     Examples:
-        chatRoom
+        a.chatRoom
 
 6. Memento: Allows the state of an object to be saved and restored later without violating encapsulation.
     Examples:
@@ -93,7 +97,7 @@ The eleven behavioral patterns are:
 10. Template Method: Defines the skeleton of an algorithm in a method, allowing its subclasses to redefine
     certain steps of the algorithm without changing its structure.
     Examples:
-        coffeeMaker
+        a.coffeeMaker
 
 11. Visitor: Separates an algorithm from an object’s structure by moving the algorithm into a separate object.
     Examples:

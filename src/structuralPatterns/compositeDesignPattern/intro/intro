@@ -1,0 +1,17 @@
+The Composite Design Pattern is a structural pattern that allows you to treat a group of objects
+    as a single object. It is used when you need to represent a hierarchical structure of objects
+    and treat the individual objects and groups of objects uniformly.
+
+The Composite pattern has the following components:
+
+    Component: Defines the interface for all objects in the composition.
+        It can be an abstract class or an interface.
+
+    Leaf: Implements the Component interface and represents a leaf node in the composition.
+        It doesn't have any child objects.
+
+    Composite: Implements the Component interface and represents a composite node in the composition.
+        It has one or more child objects, which can be either Leaf or Composite objects.
+
+    Client: Uses the Component interface to interact with the objects in the composition.
+        It doesn't need to know whether an object is a Leaf or a Composite object.
