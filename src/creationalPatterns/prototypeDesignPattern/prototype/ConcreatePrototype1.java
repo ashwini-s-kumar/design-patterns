@@ -26,7 +26,7 @@ public class ConcreatePrototype1 implements Prototype{
 
     @Override
     public Prototype clone() throws CloneNotSupportedException {
-        super.clone();
+        //super.clone();
         return new ConcreatePrototype1(this.name);
     }
 }

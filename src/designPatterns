@@ -24,7 +24,7 @@ The five creational patterns are:
         a.printer
 
 =============================================================================================================================================================================
-(6/7)Structural Patterns: These patterns deal with object composition,
+(7/7)Structural Patterns: These patterns deal with object composition,
 such as classes or objects being composed into larger structures.
 The seven structural patterns are:
 =============================================================================================================================================================================
@@ -34,6 +34,8 @@ The seven structural patterns are:
 
 2. Bridge: Decouple an abstraction from its implementation, so they can vary independently.
     In this pattern, the abstraction and implementation are both defined as separate class hierarchies and are connected using a bridge interface.
+    Examples:
+        a.messagingPlatform
 
 3. Composite: Allows objects to be composed into tree structures to represent part-whole hierarchies.
     Examples:
@@ -58,11 +60,12 @@ The seven structural patterns are:
 (11/11)Behavioral Patterns: These patterns deal with communication between objects and how they operate together.
 The eleven behavioral patterns are:
 =============================================================================================================================================================================
-1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.
+1. Chain of Responsibility: Passes a request through a chain of objects to find the one that can handle it.  requestHandlers, request, client.
     Examples:
         a.kingdom
 
-2. Command: Encapsulates a request as an object, allowing it to be treated as a parameter, stored, and executed later.
+
+2. Command: Encapsulates a request as an object, allowing it to be treated as a parameter, stored, and executed later.  command, invoker, receiver.
     Examples:
         a.Calculator
 
@@ -70,32 +73,32 @@ The eleven behavioral patterns are:
     Examples:
         a.expressions
 
-4. Iterator: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+4. Iterator: Provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation. Aggregator , Iterator.
     Examples:
         a.collectionIterator
 
-5. Mediator: Defines simplified communication between objects in a system.
+5. Mediator: Defines simplified communication between objects in a system. Mediator, concrete Mediator, Collegue, Concrete Collegue.
     Examples:
         a.chatRoom
 
-6. Memento: Allows the state of an object to be saved and restored later without violating encapsulation.
+6. Memento: Allows the state of an object to be saved and restored later without violating encapsulation. Originator, Momento, careTaker.
     Examples:
         a.article
 
-7. Observer: Notifies objects of changes in another object’s state.
+7. Observer: Notifies objects of changes in another object’s state.  Observer, Observable.
     Examples:
         a.weatherStation
 
-8. State: Allows an object to change its behavior when its internal state changes.
+8. State: Allows an object to change its behavior when its internal state changes. State, Machine.
     Examples:
         a.coffeeVendingMachine
 
-9. Strategy: Defines a family of algorithms, encapsulating each one, and making them interchangeable.
+9. Strategy: Defines a family of algorithms, encapsulating each one, and making them interchangeable. Strategies, StrategySelector
     Examples:
         a.sortingStrategy
 
 10. Template Method: Defines the skeleton of an algorithm in a method, allowing its subclasses to redefine
-    certain steps of the algorithm without changing its structure.
+    certain steps of the algorithm without changing its structure.   AbstractTemplateMethods, ConcreteSubClasses.
     Examples:
         a.coffeeMaker
 
